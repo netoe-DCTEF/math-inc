@@ -39,3 +39,22 @@ foo@bar:~$
 No real roots!
 ```
 
+<h1>Tutorial to compile source code </h1>
+
+<h3>To compile the .c file:</h3>
+
+```console 
+gcc -o main main.c
+```
+
+<h3>To run in bash shell and others:</h3>
+
+```console 
+foo@bar:~$ ./main 2 4 144
+```
+
+<h3>To run in standard windows cmd:</h3>
+
+```console 
+C:\Users\user>start main 2 4 144
+```
